@@ -1,0 +1,212 @@
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; } 
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; }
+img {border:0;	vertical-align:middle;}
+table { border-collapse:collapse; }
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after{ 
+    content:""; 
+    display:table; 
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/ 
+} 
+a{color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w{
+    width: 1210px;margin:0 auto;
+}
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+.al {
+	text-align:left
+}
+.ac {
+	text-align:center
+}
+.ar {
+	text-align:right
+}
+.hide {
+	display:none
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 508424 */
+  src: url('//at.alicdn.com/t/font_508424_4u6tc9sol4k7qfr.eot');
+  src: url('//at.alicdn.com/t/font_508424_4u6tc9sol4k7qfr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_508424_4u6tc9sol4k7qfr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_508424_4u6tc9sol4k7qfr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_508424_4u6tc9sol4k7qfr.svg#iconfont') format('svg');
+}
+.iconfont {  
+  font-family:"iconfont" !important;  
+  font-size:16px;  
+  font-style:normal;  
+  -webkit-font-smoothing: antialiased;  
+  -moz-osx-font-smoothing: grayscale;  
+}  
+
+/*导航开始*/
+.nav{
+	width: 1583px;
+	height: 50px;
+	background: #111111;
+}
+.nav-left{
+	width: 720px;
+	height: 50px;
+	line-height: 50px;
+}
+.nav-left .logo{
+	width: 135px;
+	height: 27px;
+	
+}
+.nav-left .logo img{
+	position: relative;
+	left: -155px;
+	top: 0px;
+}
+.nav-left .menu ul li a{
+	list-style: none;
+	font: 14px "微软雅黑";
+	color: white;
+	float: left;
+	margin: 0 30px;
+}
+.nav-left .menu ul li .current{
+	color: #50c8d7;
+}
+.new{
+	width: 21px;
+    height: 8px;
+    color: #ff5b54;
+    position: absolute;
+    top: 15px;
+    left: 722px;
+    font-size: 9px
+}
+.nav-right{
+	width: 444px;
+	height: 41px;
+	
+}
+.nav-right .serach-box input{
+	width: 222px;
+	height: 27px;
+	margin-top: 13px;
+	margin-right: 20px;
+	background: #2f2f2f;
+	font: 14px "微软雅黑";
+	color: #9f9f9f;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.iconfont{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: -43px;
+	top: 12px;
+}
+/*.user-box .line{
+	height: 16px;
+	width: 1px;
+	background: #3d3d3d;
+	position: relative;
+	right: -66px;
+	top: 4px;
+}*/
+	
+.user-box{
+	width: 300px;
+	height: 27px;
+	position: relative;
+	left: 140px;
+	top: -27px;
+}	
+.user-box ul li a{
+    float: left;
+	font: 14px "微软雅黑";
+	margin: 0 20px;
+}
+/*foot开始*/
+#foot{
+	background: url(../img/ft_bg.png);
+	min-width: 1150px;
+	padding-bottom: 45px;
+}
+#foot ul{
+	width: 830px;
+	margin: 0 auto;
+	padding: 60px 0 0;
+}
+#foot ul li{
+	float: left;
+	width: 180px;
+}
+#foot ul h5{
+	color: #50c8d7;
+	font: 15px;
+	padding: 0 0 16px 20px;
+}
+#foot ul p{
+	font: 14px;
+	line-height: 24px;
+}
+#foot ul p a{
+	background: url(../img/hf_bg.png) left -19px no-repeat;
+	display: inline-block;
+	padding-left: 20px;
+	color: #816b53;
+}
+#foot ul .last{
+	width: 110px;
+}
+#foot ul .last .sina{
+	background: url(../img/sina_icon.png) left center no-repeat;
+}
+#foot ul .last a{
+	display: block;
+	padding: 0 0 0 26px;
+	height: 24px;
+	line-height: 24px;
+	color: #8l8l8l;
+}
+#foot ul .last .weixi{
+	background: url(../img/weixin_icon.png) left center no-repeat;
+}
+#foot ul .last img{
+	margin-top:10px ;
+}
+#foot .copyright{
+	display: block;
+	clear: both;
+	text-align: center;
+	color: #8l8l8l;
+	font: 14px;
+	padding-top: 60px;
+	font-family: tahoma,geneva,sans-serif;
+}
+
+
+
